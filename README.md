@@ -15,6 +15,17 @@ Welcome to the "Probability Distributions Analysis for Machine Learning" reposit
 
 Probability distributions play a crucial role in machine learning and statistics. This repository is dedicated to exploring and analyzing probability distributions, with a focus on the Bernoulli and Poisson distributions. These distributions are fundamental in many machine learning algorithms and statistical modeling tasks.
 
+### Key Features:
+
+- **Maximum Likelihood Estimate (MLE) for Bernoulli**: Calculate the MLE for the Bernoulli parameter based on binary datasets, helping you estimate the probability of success in Bernoulli trials.
+- **Poisson Probability Calculator**: Compute probabilities using the Poisson distribution, allowing you to analyze events that occur at a known average rate.
+
+### Why Probability Distributions Matter:
+
+Understanding probability distributions is crucial in the field of machine learning and statistics. These distributions serve as the foundation for modeling uncertainty, making predictions, and drawing meaningful insights from data. By exploring and analyzing these distributions, you can enhance your understanding of fundamental concepts in the realm of probability and statistics.
+
+Whether you're a machine learning practitioner, a student, or anyone interested in probability and statistics, this repository provides valuable tools and resources to help you work with and analyze probability distributions effectively.
+
 ## Contents
 
 - **`mle_bernoulli_parameter.py`**: Python script for calculating the Maximum Likelihood Estimate (MLE) for the Bernoulli parameter.
@@ -28,14 +39,12 @@ To get started, clone this repository to your local machine:
 git clone https://github.com/abelxmendoza/Probability-Distributions-Analysis-MachineLearning.git
 ```
 
-
 Please refer to the individual script files for more information on how to use them.
 
 ## Usage
 
 * Use `mle_bernoulli_parameter.py` to calculate the MLE for the Bernoulli parameter based on your binary dataset.
 * Use `poisson_probability.py` to calculate probabilities using the Poisson distribution, given the appropriate parameters.
-
 
 ## Contributing
 
